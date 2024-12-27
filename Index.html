@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- ------------------ Font Awesome Icon ---------------------  -->
+    <link rel="stylesheet" href="./assets/public/icons/fontawesome-free-6.7.1-web/css/all.min.css" />
+
+    <!-- ------------------- Font -----------------  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet" />
+
+    <!-- ---------- Bootstrap file ------------------- -->
+    <link rel="stylesheet" href="./assets/bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+
+    <!-- --------------- Slick Slider ---------  -->
+    <link rel="stylesheet" type="text/css" href="./assets/slick-1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" type="text/css" href="./assets/slick-1.8.1/slick/slick-theme.css" />
+
+    <!-- Owl Carousel CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <!-- ---------- style.css file ------------------- -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- ---------------- Nav Bar start -------------------  -->
+
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid justify-content-center">
+                <a class="navbar-brand" href="#"
+                  ><img src="./assets/public/images/Logo-Pizza-Hut 2.png" alt="Logo" /><span class="ms-2 fw-normal">pizza hut</span></a
+                >
+                <button
+                class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"
+                >
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav align-items-lg-center mx-auto mb-2 mb-lg-0">
+                      <li class="nav-item me-3">
+                        <a class="nav-link active" href="#" aria-current="page">Home</a>
+                      </li>
+                      <li class="nav-item me-3">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item me-3 dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Shop <i class="fa-solid fa-chevron-down fs-10"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li>
+                            <hr class="dropdown-divider" />
+                          </li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item me-3 dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Blog <i class="fa-solid fa-chevron-down fs-10"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li>
+                            <hr class="dropdown-divider" />
+                          </li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item me-3 dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="/"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Pages <i class="fa-solid fa-chevron-down fs-10"></i>
+                        </a>
+  
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li>
+                            <hr class="dropdown-divider" />
+                          </li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item me-3">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                    <div class="header_buttons w-lg-25 d-flex align-items-baseline justify-content-end">
+                      <div class="addCart position-relative cursor">
+                        <i class="fa-solid fa-basket-shopping fs-4 lh-1"></i>
+                        <span class="position-absolute fs-6 rounded-circle d-flex align-items-center justify-content-center w-100 h-100 lh-1 pb-1">22</span>
+                      </div>
+                      <button class="rounded-3 border-0 px-4 py-3 lh-1 fs-6 fw-normal text-center ms-lg-4 contact_us_btn mt-2" type="submit">Contact Us</button>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ---------------- Nav Bar end -------------------  -->
+
+    <!-- ---------------- Hero Section start -------------------  -->
+
+    <section class="hero_section">
+      <div id="owl-demo" class="owl-carousel owl-theme">
+        <div class="carousel_main w-100 d-flex justify-content-center align-items-center">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-sm-6">
+                <div class="hero_sec_text py-5">
+                  <p class="fs-4 fw-semibold text-capitalize text-start lh-sm">crispy, every bite taste</p>
+                  <h1 class="fs-lg-1 fs-md-2 fs-sm-3 fw-semibold lh-base text-uppercase text-start">hot spicy chiken burger</h1>
+                  <div class="offer d-flex align-items-center">
+                    <p class="fs-5 fw-bold text-start lh-1 mb-0">limited offer /</p>
+                    <span class="fs-1 fw-bold text-start lh-1 ms-3">$5</span>
+                  </div>
+                  <button class="border-0 rounded-3 hero_sec_order_btn mt-3 px-4 py-3 text-center fw-medium lh-1 fs-5">
+                    <i class="fa-solid fa-truck me-2"></i>Order Now
+                  </button>
+                </div>
+              </div>
+              <div class="col-sm-6 d-flex justify-content-end align-items-center">
+                <div class="hero_sec_img w-100 h-100 d-flex align-items-center justify-content-center justify-content-sm-end">
+                  <img class="w-75" src="./assets/public/images/Group 1000002308.png" alt="Banner image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    
+        <div class="carousel_main carousel_main w-100 d-flex justify-content-center align-items-center">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-sm-6">
+                <div class="hero_sec_text py-5">
+                  <p class="fs-4 fw-semibold text-capitalize text-start lh-sm">crispy, every bite taste</p>
+                  <h1 class="fs-lg-1 fs-md-2 fs-sm-3 fw-semibold lh-base text-uppercase text-start">hot spicy chiken burger</h1>
+                  <div class="offer d-flex align-items-center">
+                    <p class="fs-5 fw-bold text-start lh-1 mb-0">limited offer /</p>
+                    <span class="fs-1 fw-bold text-start lh-1 ms-3">$5</span>
+                  </div>
+                  <button class="border-0 rounded-3 hero_sec_order_btn mt-3 px-4 py-3 text-center fw-medium lh-1 fs-5">
+                    <i class="fa-solid fa-truck me-2"></i>Order Now
+                  </button>
+                </div>
+              </div>
+              <div class="col-sm-6 d-flex justify-content-end align-items-center">
+                <div class="hero_sec_img w-100 h-100 d-flex align-items-center justify-content-center justify-content-sm-end">
+                  <img class="w-75" src="./assets/public/images/Group 1000002308.png" alt="Banner image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="carousel_main carousel_main w-100 d-flex justify-content-center align-items-center">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-sm-6">
+                <div class="hero_sec_text py-5">
+                  <p class="fs-4 fw-semibold text-capitalize text-start lh-sm">crispy, every bite taste</p>
+                  <h1 class="fs-lg-1 fs-md-2 fs-sm-3 fw-semibold lh-base text-uppercase text-start">hot spicy chiken burger</h1>
+                  <div class="offer d-flex align-items-center">
+                    <p class="fs-5 fw-bold text-start lh-1 mb-0">limited offer /</p>
+                    <span class="fs-1 fw-bold text-start lh-1 ms-3">$5</span>
+                  </div>
+                  <button class="border-0 rounded-3 hero_sec_order_btn mt-3 px-4 py-3 text-center fw-medium lh-1 fs-5">
+                    <i class="fa-solid fa-truck me-2"></i>Order Now
+                  </button>
+                </div>
+              </div>
+              <div class="col-sm-6 d-flex justify-content-end align-items-center">
+                <div class="hero_sec_img w-100 h-100 d-flex align-items-center justify-content-center justify-content-sm-end">
+                  <img class="w-75" src="./assets/public/images/Group 1000002308.png" alt="Banner image" class="w-75" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- ---------------- Hero Section end -------------------  -->
+
+    <!-- ---------------- popular Section start -------------------  -->
+
+    <section class="popular_items_sec w-100 h-100 py-5 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12">
+                <div class="popular_item_text mb-4">
+                  <p class="fw-bold lh-1 text-start text-capitalize">crispy, every bite taste</p>
+                  <h1 class="fs-1 lh-base fw-bold text-start">Popular Food Items</h1>
+                </div>
+              </div>
+            </div>
+            <div class="row popular_item_row">
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <a href="#" class="popular_item_main_card d-block h-100">
+                  <div class="popular_item_main d-flex flex-column align-items-center rounded-2 justify-content-between h-100 pt-3 pb-4">
+                    <div class="popular_item_img">
+                      <img class="w-100 object-fit-cover" src="./assets/public/images/pasta.png.png" alt="Pasta" />
+                    </div>
+                    <div class="popular_item_details">
+                      <h1 class="fw-bold fs-2 lh-sm text-center">Chiken</h1>
+                      <p class="fw-semibold fs-6 lh-1 text-center"><span class="me-1"class="me-1">8</span>Products</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <a href="#" class="popular_item_main_card d-block h-100">
+                  <div class="popular_item_main d-flex flex-column align-items-center rounded-2 justify-content-between h-100 pt-3 pb-4">
+                    <div class="popular_item_img">
+                      <img class="w-100" src="./assets/public/images/burger-2.png.png" alt="Pro_Burger" />
+                    </div>
+                    <div class="popular_item_details">
+                      <h1 class="fw-bold fs-2 lh-sm text-center">Pro Burger</h1>
+                      <p class="fw-semibold fs-6 lh-1 text-center"><span class="me-1">2</span>Products</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <a href="#" class="popular_item_main_card d-block h-100">
+                  <div class="popular_item_main d-flex flex-column align-items-center rounded-2 justify-content-between h-100 pt-3 pb-4">
+                    <div class="popular_item_img">
+                      <img class="w-100" src="./assets/public/images/french-fry.png.png" alt="Pro_Pasta" />
+                    </div>
+                    <div class="popular_item_details">
+                      <h1 class="fw-bold fs-2 lh-sm text-center">Pro Pasta</h1>
+                      <p class="fw-semibold fs-6 lh-1 text-center"><span class="me-1">5</span>Products</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <a href="#" class="popular_item_main_card d-block h-100">
+                  <div class="popular_item_main d-flex flex-column align-items-center rounded-2 justify-content-between h-100 pt-3 pb-4">
+                    <div class="popular_item_img">
+                      <img class="w-100" src="./assets/public/images/pizza-2.png.png" alt="Pro_Pizza" />
+                    </div>
+                    <div class="popular_item_details">
+                      <h1 class="fw-bold fs-2 lh-sm text-center">Pro Pizza</h1>
+                      <p class="fw-semibold fs-6 lh-1 text-center"><span class="me-1">3</span>Products</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------- popular Section end -------------------  -->
+
+    <!-- ---------------- offer Section start -------------------  -->
+    <section class="offer_section w-100 h-100 py-md-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="offer_img_one w-100 h-100">
+              <img class="w-100" src="./assets/public/images/Background (1).png" alt="best_offer" />
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="offer_img_one w-100 h-100">
+              <img class="w-100" src="./assets/public/images/Background.png" alt="best_offer" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------- offer Section end -------------------  -->
+
+    <!-- ----------------  SPONSORS Section start -------------------  -->
+
+    <section class="sponsors_section w-100 pt-3 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="sponsoers_main">
+              <h4 class="fw-semibold fs-5 lh-sm text-start mb-0 d-flex align-items-center justify-content-between">
+                GLOBAL
+                <p class="mx-1 mb-0 fw-semibold fs-5 lh-sm">5K+</p>
+                HAPPY SPONSORS WITH US
+              </h4>
+            </div>
+            <div class="row mt-4">
+              <div class="col-lg-2 col-md-3 col-sm-4">
+                <div class="brand_logo">
+                  <img src="./assets/public/images/pizza_logo.png" alt="brand_logo" />
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-4">
+                <div class="brand_logo">
+                  <img src="./assets/public/images/cook_logo.png" alt="brand_logo" />
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-4"></div>
+              <div class="col-lg-2 col-md-3 col-sm-4"></div>
+              <div class="col-lg-2 col-md-3 col-sm-4"></div>
+              <div class="col-lg-2 col-md-3 col-sm-4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------  SPONSORS Section end -------------------  -->
+
+    <!-- ----------------  Deals Section start-------------------  -->
+    <section class="deals_section w-100 h-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="deals_sec_main">
+              <p class="fs-5 lh-sm fw-semibold text-start">Save 20%</p>
+              <h1 class="fw-bold display-3 lh-sm text-start">Today`s <span>Astackin</span> Day</h1>
+              <p class="grilled fs-2 lh-sm fw-bold text-start">
+                Grilled <span class="chiken">Chiken <span class="price fw-bold fs-3 lh-sm">$59,00</span></span>
+              </p>
+              <button class="deals_order_btn border-0 rounded-3 fw-medium fs-6 lh-1 text-center px-4 py-3 mt-2"><i class="fa-solid fa-truck me-2"></i>Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------  Deals Section end -------------------  -->
+
+    <!-- ----------------  popular product Section start -------------------  -->
+
+    <section class="popular_product w-100 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="popular_product_text mb-5">
+              <p class="fs-6 fw-bold lh-1 text-capitalize text-center">crispy, every bite taste</p>
+              <h1 class="display-4 lh-base fw-bold text-center">Popular Fast Foods</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+            <div class="popular_product_card mb-4">
+              <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
+                <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
+                <img class="w-100 pt-4 pb-3" src="./assets/public/images/delicious-burger.png.png" alt="" />
+              </div>
+              <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
+                <div class="price d-flex align-items-center mb-2">
+                  <p class="offer p-2 fs-6 lh-1 fw-semibold me-2 rounded-3">-25%</p>
+                  <span class="fs-6 fw-normal lh-1 text-decoration-line-through me-2">60.00$</span>
+                  <p class="real_price fs-6 lh-1 fw-semibold">45.00$</p>
+                </div>
+                <a href="#" class="product_name">
+                  <h1 class="fs-5 fw-semibold lh-1 text-capitalize">Delicious Burger</h1>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+            <div class="popular_product_card mb-4">
+              <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
+                <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
+                <img class="w-100 pt-4 pb-3" src="./assets/public/images/grilled-2.png.png" alt="" />
+              </div>
+              <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
+                <div class="price d-flex align-items-center mb-2">
+                  <p class="offer p-2 fs-6 lh-1 fw-semibold me-2 rounded-3">-7%</p>
+                  <span class="fs-6 fw-normal lh-1 text-decoration-line-through me-2">42.00$</span>
+                  <p class="real_price fs-6 lh-1 fw-semibold">39.00$</p>
+                </div>
+                <a href="#" class="product_name">
+                  <h1 class="fs-5 fw-semibold lh-1 text-capitalize">Grilled Chicken</h1>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+            <div class="popular_product_card mb-4">
+              <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
+                <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
+                <img class="w-100 pt-4 pb-3" src="./assets/public/images/ruti.png.png" alt="" />
+              </div>
+              <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
+                <div class="price d-flex align-items-center mb-2">
+                  <p class="offer p-2 fs-6 lh-1 fw-semibold me-2 rounded-3">-10%</p>
+                  <span class="fs-6 fw-normal lh-1 text-decoration-line-through me-2">29.00$</span>
+                  <p class="real_price fs-6 lh-1 fw-semibold">26.00$</p>
+                </div>
+                <a href="#" class="product_name">
+                  <h1 class="fs-5 fw-semibold lh-1 text-capitalize">Ruti with chicken</h1>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+            <div class="popular_product_card mb-4">
+              <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
+                <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
+                <img class="w-100 pt-4 pb-3" src="./assets/public/images/main-food-2.png.png" alt="" />
+              </div>
+              <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
+                <div class="price d-flex align-items-center mb-2">
+                  <p class="offer p-2 fs-6 lh-1 fw-semibold me-2 rounded-3">-18%</p>
+                  <span class="fs-6 fw-normal lh-1 text-decoration-line-through me-2">34.00$</span>
+                  <p class="real_price fs-6 lh-1 fw-semibold">28.00$</p>
+                </div>
+                <a href="#" class="product_name">
+                  <h1 class="fs-5 fw-semibold lh-1 text-capitalize">fast food combo</h1>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+            <div class="popular_product_card mb-4">
+              <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
+                <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
+                <img class="w-100 pt-4 pb-3" src="./assets/public/images/pizza-3.png.png" alt="" />
+              </div>
+              <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
+                <div class="price d-flex align-items-center mb-2">
+                  <p class="offer p-2 fs-6 lh-1 fw-semibold me-2 rounded-3">-21%</p>
+                  <span class="fs-6 fw-normal lh-1 text-decoration-line-through me-2">28.00$</span>
+                  <p class="real_price fs-6 lh-1 fw-semibold">22.00$</p>
+                </div>
+                <a href="#" class="product_name">
+                  <h1 class="fs-5 fw-semibold lh-1 text-capitalize">Chicago Deep Pizza</h1>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+            <div class="popular_product_card mb-4">
+              <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
+                <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
+                <img class="w-100 pt-4 pb-3" src="./assets/public/images/pasta-2.png.png" alt="" />
+              </div>
+              <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
+                <div class="price d-flex align-items-center mb-2">
+                  <p class="offer p-2 fs-6 lh-1 fw-semibold me-2 rounded-3">-15%</p>
+                  <span class="fs-6 fw-normal lh-1 text-decoration-line-through me-2">40.00$</span>
+                  <p class="real_price fs-6 lh-1 fw-semibold">34.00$</p>
+                </div>
+                <a href="#" class="product_name">
+                  <h1 class="fs-5 fw-semibold lh-1 text-capitalize">Chinese Pasta</h1>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+          <div class="popular_product_card mb-4">
+            <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
+              <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
+              <img class="w-100 pt-4 pb-3" src="./assets/public/images/beef-ruti.png.png" alt="" />
+              </div>
+              <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
+                <div class="price d-flex align-items-center mb-2">
+                  <p class="offer p-2 fs-6 lh-1 fw-semibold me-2 rounded-3">-7%</p>
+                  <span class="fs-6 fw-normal lh-1 text-decoration-line-through me-2">30.00$</span>
+                  <p class="real_price fs-6 lh-1 fw-semibold">28.00$</p>
+                </div>
+                <a href="#" class="product_name">
+                  <h1 class="fs-5 fw-semibold lh-1 text-capitalize">ruti with beef slice</h1>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+            <div class="popular_product_card mb-4">
+              <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
+                <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
+                <img class="w-100 pt-4 pb-3" src="./assets/public/images/burger-2-1.png.png" alt="" />
+              </div>
+              <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
+                <div class="price d-flex align-items-center mb-2">
+                  <p class="offer p-2 fs-6 lh-1 fw-semibold me-2 rounded-3">-13%</p>
+                  <span class="fs-6 fw-normal lh-1 text-decoration-line-through me-2">30.00$</span>
+                  <p class="real_price fs-6 lh-1 fw-semibold">26.00$</p>
+                </div>
+                <a href="#" class="product_name">
+                  <h1 class="fs-5 fw-semibold lh-1 text-capitalize">whopper Burger king</h1>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 product-card hidden">
+            <div class="popular_product_card mb-4">
+              <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
+                <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
+                <img class="w-100 pt-4 pb-3" src="./assets/public/images/delicious-burger.png.png" alt="" />
+              </div>
+              <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
+                <div class="price d-flex align-items-center mb-2">
+                  <p class="offer p-2 fs-6 lh-1 fw-semibold me-2 rounded-3">-25%</p>
+                  <span class="fs-6 fw-normal lh-1 text-decoration-line-through me-2">60.00$</span>
+                  <p class="real_price fs-6 lh-1 fw-semibold">45.00$</p>
+                </div>
+                <a href="#" class="product_name">
+                  <h1 class="fs-5 fw-semibold lh-1 text-capitalize">Delicious Burger</h1>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 product-card hidden">
+            <div class="popular_product_card mb-4">
+              <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
+                <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
+                <img class="w-100 pt-4 pb-3" src="./assets/public/images/grilled-2.png.png" alt="" />
+              </div>
+              <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
+                <div class="price d-flex align-items-center mb-2">
+                  <p class="offer p-2 fs-6 lh-1 fw-semibold me-2 rounded-3">-7%</p>
+                  <span class="fs-6 fw-normal lh-1 text-decoration-line-through me-2">42.00$</span>
+                  <p class="real_price fs-6 lh-1 fw-semibold">39.00$</p>
+                </div>
+                <a href="#" class="product_name">
+                  <h1 class="fs-5 fw-semibold lh-1 text-capitalize">Grilled Chicken</h1>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 product-card hidden">
+            <div class="popular_product_card mb-4">
+              <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
+                <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
+                <img class="w-100 pt-4 pb-3" src="./assets/public/images/ruti.png.png" alt="" />
+              </div>
+              <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
+                <div class="price d-flex align-items-center mb-2">
+                  <p class="offer p-2 fs-6 lh-1 fw-semibold me-2 rounded-3">-10%</p>
+                  <span class="fs-6 fw-normal lh-1 text-decoration-line-through me-2">29.00$</span>
+                  <p class="real_price fs-6 lh-1 fw-semibold">26.00$</p>
+                </div>
+                <a href="#" class="product_name">
+                  <h1 class="fs-5 fw-semibold lh-1 text-capitalize">Ruti with chicken</h1>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 product-card hidden">
+            <div class="popular_product_card mb-4">
+              <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
+                <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
+                <img class="w-100 pt-4 pb-3" src="./assets/public/images/main-food-2.png.png" alt="" />
+              </div>
+              <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
+                <div class="price d-flex align-items-center mb-2">
+                  <p class="offer p-2 fs-6 lh-1 fw-semibold me-2 rounded-3">-18%</p>
+                  <span class="fs-6 fw-normal lh-1 text-decoration-line-through me-2">34.00$</span>
+                  <p class="real_price fs-6 lh-1 fw-semibold">28.00$</p>
+                </div>
+                <a href="#" class="product_name">
+                  <h1 class="fs-5 fw-semibold lh-1 text-capitalize">fast food combo</h1>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <button id="loadMoreBtn" class="loadMoreBtn border-0 fs-6 fw-medium lh-1 rounded-3 py-3 px-4 text-capitalize"><i class="fa-solid fa-truck"></i> view More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------  popular product Section end -------------------  -->
+
+    <!-- ----------------  Trending product Section start -------------------  -->
+
+    <section class="trending_product_sec w-100 d-flex py-5">
+      <div class="trending_product_sec_text w-100">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="trending_products_main d-flex flex-column justify-content-center">
+                <div class="heading w-75">
+                  <p class="fs-6 lh-1 fw-bold">CRISPY, EVERY BITE TASTE</p>
+                  <h1 class="fs-1 lh-sm fw-bold text-capitalize">trending Food combo offer less <span>20%</span></h1>
+                </div>
+                <p class="trending_product_description fs-6 fw-normal lh-1 my-1">
+                  A team of dreamers and doers building unique interactive music and art festivals.
+                </p>
+                <div class="trending_deals_btns w-100">
+                  <a href="">
+                    <div class="trending_products_brands d-flex align-items-center justify-content-between w-100 my-4 px-4 py-3 rounded-3 cursor">
+                      <div class="logo me-3">
+                        <img src="./assets/public/images/chicken_logo.png" alt="hot crispy" />
+                      </div>
+                      <p class="fs-6 lh-1 fw-medium text-center">30% off 4pcs hot crispy & 8 pcs wing</p>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="trending_products_brands d-flex align-items-center justify-content-between w-100 my-4 px-4 py-3 rounded-3 cursor">
+                      <div class="logo me-3">
+                        <img src="./assets/public/images/pizza_logo2.png" alt="tasty pizza" />
+                      </div>
+                      <p class="fs-6 lh-1 fw-medium text-center">20% off tasty pizza with drink</p>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="trending_products_brands d-flex align-items-center justify-content-between w-100 my-4 px-4 py-3 rounded-3 cursor">
+                      <div class="logo me-3">
+                        <img src="./assets/public/images/burger_logo.png" alt="humbergur" />
+                      </div>
+                      <p class="fs-6 lh-1 fw-medium text-center">2pcs humbergur with drinks & sauce</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="trending_product_sec_img w-100 h-100 rounded-3"></div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- ----------------  Trending product Section end -------------------  -->
+
+    <!-- ----------------  Brand slider Section start -------------------  -->
+
+    <section class="brand_slider pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="brand_logo_slider w-100">
+              <div class="brand_logo_img">
+                <img class="d-block" src="./assets/public/images/slider_logo.png" alt="brand" />
+              </div>
+              <div class="brand_logo_img">
+                <img class="d-block" src="./assets/public/images/slider_logo_2.png" alt="brand" />
+              </div>
+              <div class="brand_logo_img">
+                <img class="d-block" src="./assets/public/images/slider_logo.png" alt="brand" />
+              </div>
+              <div class="brand_logo_img">
+                <img class="d-block" src="./assets/public/images/slider_logo_2.png" alt="brand" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------  Brand slider Section end -------------------  -->
+
+    <!-- ----------------  Banner 2 Section start -------------------  -->
+
+    <section class="banner py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="banner_card rounded-3">
+              <div class="row">
+                <div class="col-lg-3 col-md-6">
+                  <div class="banner_card_main w-100 py-5 px-4">
+                    <div class="logo">
+                      <img src="./assets/public/images/Icon.png" alt="quality food" />
+                    </div>
+                    <h1 class="fs-6 lh-sm fw-semibold">super quality food</h1>
+                    <p class="fs-6 lh-sm fw-normal">A team of dreamers and doers building unique interactive music and art</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="banner_card_main w-100 py-5 px-4">
+                    <div class="logo">
+                      <img src="./assets/public/images/Icon (1).png" alt="ORIGINAL RECIPES" />
+                    </div>
+                    <h1 class="fs-6 lh-sm fw-semibold">ORIGINAL RECIPES</h1>
+                    <p class="fs-6 lh-sm fw-normal">A team of dreamers and doers building unique interactive music and art</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="banner_card_main w-100 py-5 px-4">
+                    <div class="logo">
+                      <img src="./assets/public/images/Icon (2).png" alt="QUICK FAST DELIVERY" />
+                    </div>
+                    <h1 class="fs-6 lh-sm fw-semibold">QUICK FAST DELIVERY</h1>
+                    <p class="fs-6 lh-sm fw-normal">A team of dreamers and doers building unique interactive music and art</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="banner_card_main w-100 py-5 px-4">
+                    <div class="logo">
+                      <img src="./assets/public/images/Icon.png" alt="quality food" />
+                    </div>
+                    <h1 class="fs-6 lh-sm fw-semibold">100% FRESH FOODS</h1>
+                    <p class="fs-6 lh-sm fw-normal">A team of dreamers and doers building unique interactive music and art</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------  Banner 2 Section end -------------------  -->
+
+    <!-- ----------------  Services Section start -------------------  -->
+
+    <section class="services_section pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="service_images_sec w-100 position-relative">
+              <img src="./assets/public/images/Group 1000002308 (3).png" alt="Burger" />
+              <span class="position-absolute display-3 lh-base fw-bold">$0</span>
+              <p class="position-absolute rounded-3 px-4 py-2" >Since /1985</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="services_text_section pt-3">
+              <div class="heading">
+                <p class="fs-6 lh-sm fw-bold text-capitalize">about our food</p>
+                <h1 class="fs-1 lh-sm fw-bold text-capitalize">Where Quality Meet Excellent <span>Service</span>.</h1>
+              </div>
+              <p class="description fs-6 lh-1 fw-normal py-2">
+                quick and efficient service that ensures your food is servead fresh Its the dining experience where
+              </p>
+              <div class="service_card d-flex mt-3">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="service_card_main d-flex mt-3">
+                      <img class="me-2" src="./assets/public/images/Icon.png" alt="super quality food" />
+                      <div class="detail">
+                        <h1 class="fs-6 lh-1 fw-semibold text-capitalize">super quality food</h1>
+                        <p class="fs-6 lh-sm fw-normal">A team of dreamers and doers building unique interactive music and art</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="service_card_main d-flex mt-3">
+                      <img class="me-2" src="./assets/public/images/Icon (5).png" alt="well reputation" />
+                      <div class="detail">
+                        <h1 class="fs-6 lh-1 fw-semibold text-capitalize">well reputation</h1>
+                        <p class="fs-6 lh-sm fw-normal">A team of dreamers and doers building unique interactive music and art</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="about_us_btn d-flex align-items-center mt-3">
+                <button class="fs-6 lh-sm text-center text-capitalize py-3 px-4 rounded-3 border-0 me-2">More About Us</button>
+                <div class="text">
+                  <span class="fs-6 lh-sm fw-semibold text-uppercase">BRENDON GARREY</span>
+                  <p class="fs-6 lh-1 fw-bold text-uppercase">CUSTOMER’S EXPERIENCE IS OUR HIGHEST PRIORITY.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------  Services Section end -------------------  -->
+
+    <!-- -------------- Special Offer start ---------  -->
+    <div class="special_offer w-100 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="special_offer_CardLeft w-100 rounded-3">
+              <div class="row align-items-center">
+                <div class="col-md-5">
+                  <div class="special_offer_CardLeft_text align-items-center d-flex flex-column">
+                    <p class="fs-5 lh-1 fw-bold">Today</p>
+                    <h1 class="fs-1 lh-sm fw-bold">Special</h1>
+                    <h6 class="fs-4 lh-1 fw-bold">Beef <span>Burger</span></h6>
+                    <button class="fs-6 lh-1 text-center text-capitalize py-3 px-4 rounded-3 border-0 mt-2"><i class="fa-solid fa-truck"></i> Order Now</button>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="special_offer_CardLeft_img w-100 h-100 d-flex align-items-center pt-3">
+                    <img class="h-100" src="./assets/public/images/Group 1000002309 (1).png" alt="Special Offer" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="special_offer_CardRight d-flex align-items-center w-100 rounded-3">
+              <div class="special_offer_CardRight_text d-flex align-items-start flex-column ps-3">
+                <p class="fs-6 lh-1 fw-bold">Crispy, Every Bite Taste</p>
+                <h1 class="fs-3 lh-base fw-bold mb-1">FAST Foods Meal</h1>
+                <span class="fs-6 lh-1 fw-normal mb-2">The mouth-watering aroma of sizzling burgers</span>
+                <button class="fs-6 lh-1 text-center text-capitalize py-3 px-4 rounded-3 border-0 mt-1"><i class="fa-solid fa-truck"></i> Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------- Special Offer end ---------  -->
+
+    <!-- -------------- KFC Chiken sec start ---------  -->
+
+    <section class="kfc_product_sec w-100 d-flex">
+      
+      <div class="kfc_product_sec_text w-100 py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="kfc_product_sec_img w-100 h-100 rounded-3"></div>
+            </div>
+            <div class="col-lg-6">
+              <div class="kfc_products_main w-100 d-flex flex-column align-items-center">
+                <p class="fs-6 lh-1 fw-bold mb-1">Crispy, Every Bite Taste</p>
+                <h1 class="w-75 fs-1 lh-sm fw-bold text-center">kfc chiken hot wing & french fries</h1>
+                <h6 class="w-75 fs-6 lh-1 fw-normal text-center">Wheat tortilla with spicy chicken bites, cheese sauce tomatoes and soft cheese</h6>
+                <div class="time d-flex mt-2">
+                  <div class="day d-flex flex-column align-items-center">
+                    <h3 class="fs-3 lh-1 fw-semibold">30</h3>
+                    <p class="fs-6 lh-1 fw-medium">Day</p>
+                  </div>
+                  <div class="hours d-flex flex-column align-items-center">
+                    <h3 class="fs-3 lh-1 fw-semibold">22</h3>
+                    <p class="fs-6 lh-1 fw-medium">Hours</p>
+                  </div>
+                  <div class="mint d-flex flex-column align-items-center">
+                    <h3 class="fs-3 lh-1 fw-semibold">38</h3>
+                    <p class="fs-6 lh-1 fw-medium">Min</p>
+                  </div>
+                  <div class="sec d-flex flex-column align-items-center">
+                    <h3 class="fs-3 lh-1 fw-semibold">22</h3>
+                    <p class="fs-6 lh-1 fw-medium">Sec</p>
+                  </div>
+                </div>
+                <button class="border-0 rounded-3 fs-6 lh-1 py-3 px-4 mt-3 text-capitalize align-items-center"><i class="fa-solid fa-truck"></i> Order Now</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------- KFC Chiken sec end ---------  -->
+
+    <!-- -------------- happy client sec start ---------  -->
+
+    <section class="happy_client_section w-100 d-flex justify-content-center align-items-center py-5 ">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="happy_client_section_main">
+              <div class="item">
+                <div class="client_review  mx-auto w-75 text-center">
+                  <h3 class="fs-5 lh-sm fw-semibold mb-1 text-capitalize">Sophia Lily</h3>
+                  <p class="fs-6 mb-1 text-capitalize fw-600 lh-1 fs-6">Business CEO & co founder</p>
+                  <h1 class="fs-5 lh-sm fw-bold my-3 text-capitalize">
+                    “Thank you for dinner last night. It was amazing!! I have say it’s the best meal I have had in quite
+                    some time. will definitely be seeing more eating next year.”
+                  </h1>
+                  <div class="stars d-flex justify-content-center">
+                    <div class="star d-flex"></div>
+                    <div class="star d-flex"></div>
+                    <div class="star d-flex"></div>
+                    <div class="star d-flex"></div>
+                    <div class="star d-flex"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="client_review  mx-auto w-75 text-center">
+                  <h3 class="fs-5 lh-sm fw-semibold mb-1 text-capitalize">Piter Bowman</h3>
+                  <p class="fs-6 mb-1 text-capitalize fw-600 lh-1 fs-6">Business CEO & co founder</p>
+                  <h1 class="fs-5 lh-sm fw-bold my-3 text-capitalize">
+                    “Thank you for dinner last night. It was amazing!! I have say it’s the best meal I have had in quite
+                    some time. will definitely be seeing more eating next year.”
+                  </h1>
+                  <div class="stars d-flex justify-content-center">
+                    <div class="star d-flex"></div>
+                    <div class="star d-flex"></div>
+                    <div class="star d-flex"></div>
+                    <div class="star d-flex"></div>
+                    <div class="star d-flex"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="client_review  mx-auto w-75 text-center">
+                  <h3 class="fs-5 lh-sm fw-semibold mb-1 text-capitalize">Olivia Isla</h3>
+                  <p class="fs-6 mb-1 text-capitalize fw-600 lh-1 fs-6">Business CEO & co founder</p>
+                  <h1 class="fs-5 lh-sm fw-bold my-3 text-capitalize">
+                    “Thank you for dinner last night. It was amazing!! I have say it’s the best meal I have had in quite
+                    some time. will definitely be seeing more eating next year.”
+                  </h1>
+                  <div class="stars d-flex justify-content-center">
+                    <div class="star d-flex"></div>
+                    <div class="star d-flex"></div>
+                    <div class="star d-flex"></div>
+                    <div class="star d-flex"></div>
+                    <div class="star d-flex"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="circle-buttons d-flex justify-content-center align-items-center mt-4">
+          <button class="circle rounded-3 cursor border-0 fs-6 fw-bold d-flex justify-content-center align-items-center" id="circle1"><img class="mt-2" src="./assets/public/images/3aaa.png" alt="client"></button>
+          <button class="circle rounded-3 cursor border-0 fs-6 fw-bold d-flex justify-content-center align-items-center" id="circle2">
+            <img class="mt-3" src="./assets/public/images/Image+Border+Shadow.png" alt="client" />
+          </button>
+          <button class="circle rounded-3 cursor border-0 fs-6 fw-bold d-flex justify-content-center align-items-center" id="circle3"><img class="mt-3" src="./assets/public/images/3.png" alt="client"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------- happy client sec end ---------  -->
+
+    <!-- -------------- about delivery sec start ---------  -->
+
+    <section class="delivery_sec pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="delivery_sec_main py-4 rounded-3">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-md-5">
+                  <div class="delivery_sec_text">
+                    <p class="fs-6 lh-1 fw-bold text-start text-capitalize">Crispy, Every Bite Taste</p>
+                    <h1 class="fs-1 lh-sm fw-bold text-capitalize">30 Minutes Fast <span>Delivery</span> Challenge</h1>
+                    <button class="border-0 rounded-3 py-3 px-4 fs-6 lh-1 fw-medium text-center text-capitalize mt-3"><i class="fa-solid fa-truck"></i> Order Now</button>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="delivery_sec_img w-100">
+                    <img src="./assets/public/images/Group 1000002310 (1).png" alt="Delivery Rider" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------- about delivery sec end ---------  -->
+
+    <!-- -------------- Gallery sec start ---------  -->
+
+    <section>
+      <div class="gallery d-flex justify-content-between flex-wrap">
+        <div class="image-container cursor cursor position-relative m-0 overflow-hidden">
+          <img class="mw-100 mh-100" src="./assets/public/images/02-1.jpg.png" alt="Image 1" />
+        </div>
+        <div class="image-container cursor cursor position-relative m-0 overflow-hidden">
+          <img class="mw-100 mh-100" src="./assets/public/images/03-1.jpg.png" alt="Image 2" />
+        </div>
+        <div class="image-container cursor cursor position-relative m-0 overflow-hidden">
+          <img class="mw-100 mh-100" src="./assets/public/images/10aa.png" alt="Image 3" />
+        </div>
+        <div class="image-container cursor cursor position-relative m-0 overflow-hidden">
+          <img class="mw-100 mh-100" src="./assets/public/images/10a.png" alt="Image 4" />
+        </div>
+        <div class="image-container cursor cursor position-relative m-0 overflow-hidden">
+          <img class="mw-100 mh-100" class="w-100 h-100" src="./assets/public/images/10.png" alt="Image 5" />
+        </div>
+      </div>
+    
+      <!-- Popup modal -->
+      <div id="popup" class="popup position-fixed w-100 h-100 justify-content-center align-items-center">
+        <div class="popup-content position-relative mw-75 mh-75 p-1 text-center">
+          <img class="w-100 h-auto" id="popup-img" src="" alt="Popup Image" />
+          <button id="close-btn" class="close-btn px-3 py-1  position-absolute border-0 rounded-circle fs-6 fw-medium cursor">X</button>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- -------------- Gallery sec end ---------  -->
+
+    <!-- -------------- Footer sec start ---------  -->
+
+    <footer class="w-100 d-flex pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer_part_one rounded-3 py-3 ps-4 pe-3">
+              <div class="footer_logo mb-3">
+                <img src="./assets/public/images/Group 13.png" alt="Logo" />
+              </div>
+              <div class="timeing mb-4"> 
+                <p class="fs-6 lh-1 fw-medium mb-2">Tuesday – Saturday: 12:00pm – 23:00pm</p>
+                <span class="fs-6 lh-1 fw-medium">Closed on Sunday</span>
+              </div>
+              <div class="tripAdviser">
+                <p class="fs-6 lh-1 fw-medium mb-2">5 star rated on TripAdvisor</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="footer_menu py-3">
+                  <div class="footer_menu_name mb-3">
+                    <h1 class="fs-4 lh-1 fw-bold">About</h1>
+                  </div>
+                  <div class="footer_menu_item d-flex flex-column">
+                    <a href="#" class="cursor fs-6 lh-1 fw-normal">Fredoka One</a>
+                    <a href="#" class="cursor fs-6 lh-1 fw-normal">Special Dish</a>
+                    <a href="#" class="cursor fs-6 lh-1 fw-normal">Reservation</a>
+                    <a href="#" class="cursor fs-6 lh-1 fw-normal">Contact</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="footer_menu py-3">
+                  <div class="footer_menu_name mb-3">
+                    <h1 class="fs-4 lh-1 fw-bold">Menu</h1>
+                  </div>
+                  <div class="footer_menu_item d-flex flex-column">
+                    <a href="#" class="cursor fs-6 lh-1 fw-normal">Steaks</a>
+                    <a href="#" class="cursor fs-6 lh-1 fw-normal">Burgers</a>
+                    <a href="#" class="cursor fs-6 lh-1 fw-normal">Coctails</a>
+                    <a href="#" class="cursor fs-6 lh-1 fw-normal">Bar B Q</a>
+                    <a href="#" class="cursor fs-6 lh-1 fw-normal">Desserts</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="subcribation py-3">
+              <div class="footer_menu_name mb-3">
+                <h1 class="fs-4 lh-1 fw-bold">Newsletter</h1>
+              </div>
+              <form action="">
+                <label for="exampleInputEmail1">Get recent news and updates:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter your email"
+                  title="Email Address"
+                />
+                <div class="button-container d-inline-block position-relative">
+                  <button class="subscribe-btn fs-6 fw-semibold rounded-3 py-3 px-4 position-relative mt-3 z-2 cursor" type="submit">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="bottom_footer_main">
+              <div class="footer_bottom d-flex justify-content-between align-items-center py-3">
+                <div class="copywrite fs-6 lh-1 fw-medium d-flex align-items-center">
+                  <span>© 2024 pizza hut</span>
+                  <p>| All shawonetc3 Themes</p>
+                </div>
+                <div class="social fs-6 lh-1 fw-medium d-flex align-items-center">
+                  <a href="#" class="text-decoration-underline cursor">Facebook</a>
+                  <a href="#" class="text-decoration-underline cursor">Instagram</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- -------------- Footer sec end ---------  -->
+
+    <!-- ---------------------------- Script Start ---------------------------  -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="./assets/slick-1.8.1/slick/slick.min.js"></script>
+    <!-- -------------- bootstrap.js file ----------------  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="assets/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <!-- -------------- main.js file ----------------  -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

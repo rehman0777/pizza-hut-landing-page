@@ -1,0 +1,1060 @@
+:root {
+    --pink-color: #EE3A43;
+    --yellow-color: #FFC222;
+    --green-color: #00A149;
+    --black-color: #212121;
+    --white-color: #FFFFFF;
+    --bg-color: #F5F8FD;
+    --hover-color: #bd2b32;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+    border-radius: 10px;
+}
+.btn:active:focus-visible {
+    box-shadow: none;
+}
+
+
+
+body {
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+.fs-14{
+    font-size: 14px;
+}
+
+p {
+    font-family: "Oswald", serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-brand span {
+    font-family: "Fugaz One", serif;
+}
+
+
+.deals_sec_main p, .deals_sec_main .grilled, .deals_sec_main h1, .deals_order_btn:hover, .deals_order_btn, .deals_order_btn:hover, .addCart span, .contact_us_btn, .hero_sec_order_btn:hover, .hero_sec_text h1, .contact_us_btn:hover, .hero_sec_text .offer span, .hero_sec_text .offer p, .hero_sec_order_btn, .hero_section .owl-carousel .owl-dots, .loadMoreBtn, .loadMoreBtn:hover, .banner_card_main h1, .banner_card_main p, .special_offer_CardRight_text h1, .special_offer_CardRight_text button:hover,
+.special_offer_CardLeft_text button:hover, .special_offer_CardRight_text span, .kfc_products_main button, .kfc_products_main button:hover, .delivery_sec_text h1, .special_offer_CardLeft_text h1, .special_offer_CardLeft_text h6, .special_offer_CardLeft_text p, .special_offer_CardRight_text button,
+.special_offer_CardLeft_text button, .about_us_btn button:hover, .service_images_sec p, .about_us_btn button, .tripAdviser p, .footer_part_one .timeing span, .footer_part_one .timeing p, .subscribe-btn, .hero_sec_order_btn, .fvrt_btn i {
+    color: var(--white-color);
+}
+.hero_section .owl-theme .owl-dots .owl-dot.active span, .hero_section .owl-theme .owl-dots .owl-dot:hover span, .hero_section .owl-theme .owl-dots .owl-dot span, .popular_product_image, .delivery_sec_text button, .circle {
+    background: var(--white-color);
+}
+.sponsors_section, .popular_product {
+    background: var(--bg-color);
+} 
+
+.deals_sec_main h1 span, .deals_sec_main .chiken, .sponsors_section h4>p, .hero_sec_text p, .popular_item_details p, .kfc_products_main .time .day h3,
+.kfc_products_main .time .hours h3,
+.kfc_products_main .time .mint h3,
+.kfc_products_main .time .sec h3,
+.special_offer_CardRight_text p, .client_review p, .delivery_sec_text p, .delivery_sec_text h1 span, .special_offer_CardLeft_text h6 span, .about_us_btn .text span {
+    color: var(--yellow-color);
+}
+.popular_item_details h1::after, .popular_product_details .price .offer,  .service_images_sec p, #circle1.active, #circle2.active, #circle3.active, .bottom_footer_main::before, .contact_us_btn  {
+    background-color: var(--yellow-color);
+}
+.contact_us_btn:hover, .trending_products_brands:hover {
+    background: #d8a31b;
+}
+
+.deals_order_btn, .loadMoreBtn, .delivery_sec_main, .special_offer_CardRight_text button,
+.special_offer_CardLeft_text button, .footer_part_one, .subscribe-btn, .hero_sec_order_btn, .banner_card {
+    background: var(--pink-color);
+}
+.hero_sec_order_btn:hover, .deals_order_btn:hover, .deals_order_btn:hover, .loadMoreBtn:hover, .special_offer_CardLeft_text button:hover, .special_offer_CardRight_text button:hover, .button-container:hover .subscribe-btn {
+    background: var(--hover-color);
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show, .fvrt_btn.active i,  .footer_menu_item a:hover, .copywrite span, .navbar-brand span, .nav-link:hover {
+    color: var(--pink-color);
+}
+.addCart span, .fvrt_btn {
+    background: var(--black-color);
+}
+.nav-link i, .nav-link, .popular_item_details h1, .popular_item_text h1, .popular_product_text h1, .sponsoers_main h4, .popular_product_details .price .offer, .product_name h1, .trending_products_main .heading h1, .trending_products_brands p, .services_text_section .heading h1, .kfc_products_main .time .day p,
+.kfc_products_main .time .hours p,
+.kfc_products_main .time .mint p,
+.kfc_products_main .time .sec p,
+.kfc_products_main h1, .client_review h3, .client_review h1, .delivery_sec_text button, .delivery_sec_text button:hover, .service_card_main .detail h1, .service_card_main .detail p, .about_us_btn .text p, .service_images_sec span, .social a, .copywrite, .footer_menu_item a   {
+    color: var(--black-color);
+}
+.addCart i, .popular_item_text p, .popular_product_text p, .trending_products_main .heading p, .trending_products_main .heading span, .services_text_section .heading p, .services_text_section .heading h1 span, .kfc_products_main p {
+    color: var(--green-color);
+}
+.kfc_products_main button, .about_us_btn button {
+    background: var(--green-color);
+}
+
+.kfc_products_main button:hover, .about_us_btn button:hover  {
+    background: #047537;
+}
+
+.sponsors_section h4::after, .trending_products_brands, .delivery_sec_text button:hover {
+    background-color: #D9D9D9;
+}
+
+.popular_product_details span, .popular_product_details .real_price, .trending_product_description, .services_text_section .description, .kfc_products_main h6  {
+    color: #5C5C5B;
+}
+
+
+
+.footer_part_one .timeing p, .footer_part_one .timeing span, .tripAdviser p, .footer_menu_name h1, .footer_menu_item a, .subscribe-btn, .social, .copywrite  {
+    font-family: "Fredoka", serif;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+.cursor {
+    cursor: pointer;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.nav-item .dropdown:Hover .dropdown-menu .show {
+    display: block;
+}
+
+.addCart span {
+    top: -15px;
+    left: 18px;
+}
+
+
+
+/* --------------------- NavBar End -----------------------  */
+
+
+
+/* --------------------- Hero Section start -----------------------  */
+
+
+.hero_section .item {
+    width: 100%;
+    height: 600px;
+}
+
+.carousel_main {
+    background: url(../public/images/HeroSection.png);
+    height: 500px;
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero_section .owl-carousel .owl-dots {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    bottom: 25px;
+}
+
+.hero_section .owl-theme .owl-dots .owl-dot span {
+    width: 5px;
+    height: 5px;
+    margin: 3px;
+}
+
+.hero_section .owl-theme .owl-dots .owl-dot.active {
+    border: 1px solid var(--white-color);
+    border-radius: 50%;
+    padding: 0. 5px 0px !important;
+}
+
+
+
+/* --------------------- Hero Section End -----------------------  */
+
+/* --------------------- Popular Section Start -----------------------  */
+
+.popular_items_sec {
+    background: url(../public/images/Section2.png);
+    background-position-y: center;
+    margin-bottom: -1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.popular_item_main {
+    background: url(../public/images/card_background.png);
+}
+
+.popular_item_img img {
+    height: 200px;
+}
+
+.popular_item_details h1::after {
+    content: '';
+    width: 53px;
+    height: 2px;
+    display: block;
+    margin: 2px auto 5px auto;
+}
+
+
+
+
+
+
+/* --------------------- Popular items Section End -----------------------  */
+
+
+/* --------------------- Offer Section End -----------------------  */
+
+.offer_section {
+    background: url(../public/images/Section3.png);
+    background-position-x: right;
+    background-size: cover;
+}
+
+.offer_img_one img {
+    height: 350px;
+}
+
+
+/* --------------------- Offer Section End -----------------------  */
+
+
+
+
+/* --------------------- Sponsors Section Start -----------------------  */
+
+
+.sponsoers_main {
+    width: 100%;
+
+}
+
+.sponsors_section h4::after {
+    content: "";
+    width: 70%;
+    height: 1px;
+    display: block;
+}
+
+
+/* --------------------- Sponsors Section End -----------------------  */
+
+/* --------------------- Deals Section start -----------------------  */
+.deals_section {
+    background: url(../public/images/Section5.png);
+    padding: 200px 0px;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: cover;
+}
+
+
+/* --------------------- Deals Section End -----------------------  */
+
+
+/* --------------------- Popular product Section Estart -----------------------  */
+
+
+
+
+
+.fvrt_btn {
+    width: fit-content;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.popular_product_image img {
+    height: 250px;
+}
+
+.popular_product .hidden {
+    display: none;
+}
+
+
+/* --------------------- Popular product Section End -----------------------  */
+
+
+
+/* --------------------- Trending product Section start -----------------------  */
+
+.trending_product_sec {
+    background: url(../public/images/Section6.png);
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: cover;
+    height: fit-content;
+}
+
+.trending_product_sec_img {
+    background: url(../public/images/Tabpanel.png);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.trending_product_sec_img {
+    background-image: url(../public/images/Tabpanel.png);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+
+
+/* --------------------- Trending product Section End -----------------------  */
+
+
+/* -------- brand slider Section start -------- */
+
+
+.slick-slide img {
+    width: -webkit-fill-available;
+    height: 10vh;
+}
+
+
+/* ------- brand slider Section End --------  */
+
+
+
+/* --------------------- Banner Section start -----------------------  */
+
+.service_card_main img {
+    height: 70px;
+}
+
+
+/* --------------------- Banner Section End -----------------------  */
+
+
+
+/* --------------------- services_section start -----------------------  */
+
+
+.service_images_sec img {
+    width: inherit;
+    height: 450px;
+}
+
+.service_images_sec span {
+    bottom: 10%;
+    left: 15%;
+}
+
+.service_images_sec p {
+    bottom: 10%;
+    right: 15%;
+    rotate: -25.48deg;
+}
+
+
+
+.special_offer_CardLeft {
+    background: url(../public/images/specialOffer.png);
+    height: 350px;
+    background-position-y: center;
+    background-position-x: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.special_offer_CardRight {
+    background: url(../public/images/specialOffer2.png);
+    height: 350px;
+    background-position-y: bottom;
+    background-position-x: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.special_offer_CardLeft_img img {
+    width: inherit;
+}
+
+
+.special_offer_CardRight_text button,
+.special_offer_CardLeft_text button {
+    width: fit-content;
+}
+
+
+.special_offer_CardRight_text {
+    width: fit-content;
+}
+
+
+/* --------------------- services_section End -----------------------  */
+
+
+
+/* --------------------- KFC_section start -----------------------  */
+
+.kfc_product_sec {
+    background: url(../public/images/Section8.png);
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: cover;
+    height: fit-content;
+}
+
+.kfc_product_sec_img {
+    background: url(../public/images/kfc.png);
+    background-position-x: right;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.kfc_products_main .time {
+    gap: 20px;
+}
+
+
+
+
+/* --------------------- KFC_section End -----------------------  */
+
+
+
+/* --------------------- client section start -----------------------  */
+
+.happy_client_section {
+    background: url(../public/images/Section.png);
+    height: 600px;
+    background-position-x: left;
+    background-position-y: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.circle-buttons {
+    gap: 10px;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+}
+
+.circle img {
+    width: inherit;
+}
+
+#circle1.active {
+    width: 57px;
+    height: 74px;
+    border-radius: 10px;
+    display: flex;
+    justify-items: flex-end;
+    align-items: flex-end;
+    padding: 0px 0px 0px 7px;
+}
+
+#circle2.active {
+    width: 57px;
+    height: 74px;
+    border-radius: 10px;
+    display: flex;
+    justify-items: center;
+    align-items: flex-end;
+}
+
+#circle2.active img {
+    padding-bottom: 5px;
+}
+
+#circle3.active {
+    width: 57px;
+    height: 74px;
+    border-radius: 10px;
+    display: flex;
+    justify-items: center;
+    align-items: flex-end;
+}
+
+#circle3.active img {
+    padding: 0px 6px 4px 0px;
+}
+
+
+.slick-slide {
+    transition: transform 0.5s ease;
+}
+
+
+.star {
+    width: 10px;
+    aspect-ratio: 1;
+    clip-path: polygon(50% 0, 79% 90%, 2% 35%, 98% 35%, 21% 90%);
+}
+
+
+
+/* --------------------- client section End -----------------------  */
+
+
+
+
+/* --------------------- delivery section start -----------------------  */
+
+.delivery_sec_img img {
+    width: inherit;
+}
+
+
+
+
+/* --------------------- delivery section End -----------------------  */
+
+
+
+/* --------------------- Gallary section start -----------------------  */
+
+/* General reset for the page */
+
+
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}
+
+  .popup {
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+  }
+  
+  .popup-content {
+    background-color: transparent;
+  }
+  
+  .close-btn {
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .close-btn:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+
+/* --------------------- Gallary section End -----------------------  */
+
+
+
+/* --------------------- footer section start -----------------------  */
+footer {
+    background: url(../public/images/Group\ 7.png);
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+}
+
+.footer_menu_item {
+    gap: 10px;
+}
+.footer_menu_name h1 {
+    color: #000000;
+    border-bottom: 5px solid var(--yellow-color);
+    width: fit-content;
+}
+
+
+
+.subscribe-btn {
+    border: 3px solid var(--pink-color);
+}
+
+.subscribe-btn::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 10px;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    border: 3px solid var(--pink-color);
+    border-radius: 10px;
+    transform: translate(5px, 5px);
+    z-index: 1;
+    margin: -6px -5px -4px -6px;
+}
+.subscribe-btn::before:hover{
+    opacity: 70%;
+}
+.button-container:hover .subscribe-btn{
+    border: 3px solid var(--hover-color);
+}
+.button-container:hover .subscribe-btn::before{
+    border: 3px solid var(--hover-color);
+}
+
+.bottom_footer_main::before {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background: var(--yellow-color);
+    display: flex;
+    margin: 20px 0px 0px 0px;
+}
+.copywrite {
+    gap: 6px;
+}
+
+.social {
+    gap: 20px;
+}
+
+
+
+
+/* --------------------- footer section End -----------------------  */
+
+/* =============== media queries start =========  */
+
+
+
+@media (min-width: 992px) and (max-width: 1300px) {
+
+    .hero_sec_text h1,
+    .popular_item_text h1,
+    .deals_sec_main h1,
+    .popular_product_text h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .hero_sec_text .offer span {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .hero_sec_order_btn,
+    .deals_order_btn,
+    .loadMoreBtn {
+        font-size: 17px;
+        line-height: 17px;
+        font-weight: 400;
+    }
+
+    .sponsors_section h4::after {
+        content: "";
+        width: 65%;
+    }
+
+    .deals_sec_main .grilled {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .deals_section {
+        padding: 150px 0px;
+    }
+
+    .popular_product_image img {
+        width: 100%;
+        height: 230px;
+        padding: 30px 0px 20px 0px;
+    }
+
+    .about_us_btn button {
+        white-space: pre;
+    }
+
+    .special_offer_CardLeft .row {
+        height: 100%;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .offcanvas-header{
+        padding: 24px;
+    }
+    header .container-fluid {
+        justify-content: space-between !important;
+    }
+
+    .offcanvas-body ul {
+        align-items: flex-start;
+        margin: 0px;
+    }
+
+    .nav-item {
+        display: contents;
+    }
+
+    .header_buttons {
+        width: 50%;
+        flex-direction: column;
+        margin: 20px 0px 0px 0px;
+        justify-content: center;
+        align-items: flex-start !important;
+    }
+
+
+    .hero_sec_text h1,
+    .popular_item_text h1,
+    .deals_sec_main h1,
+    .popular_product_text h1,
+    .hero_sec_text .offer span {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .deals_order_btn,
+    .hero_sec_order_btn {
+        font-weight: 400;
+    }
+
+    .popular_item_row {
+        --bs-gutter-y: 20px;
+        justify-content: center;
+    }
+
+    .offer_img_one {
+        margin-bottom: 20px;
+    }
+
+    .offer_img_one img {
+        height: 250px;
+    }
+
+    .sponsors_section h4::after {
+        content: "";
+        width: 52%;
+    }
+
+    .deals_section {
+        padding: 100px 0px;
+    }
+
+    .deals_sec_main .grilled {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .popular_product_image img {
+        height: 200px;
+    }
+
+    .trending_product_sec_img,
+    .kfc_product_sec_img {
+        height: 300px;
+    }
+
+    .banner_card {
+        padding: 60px 0px 30px 0px;
+    }
+
+    .banner_card_main {
+        width: 100%;
+        padding: 0px 35px 30px 35px;
+    }
+
+    .service_card_main img {
+        height: 80px;
+        width:  80px;
+    }
+    .special_offer_CardLeft {
+        margin-bottom: 30px;
+    }
+    .kfc_products_main{
+        margin-top: 20px;
+    }
+    .happy_client_section {
+        height: 400px;
+    }
+    .delivery_sec_text h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .delivery_sec_text button {
+        margin-top: 10px;
+    }
+    /* Basic button styling */
+.navbar-toggler {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    width: 30px;
+    height: 22px;
+  }
+  .navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: var(--black-color); 
+    margin: 5px 0;
+    transition: all 0.3s ease;
+  }
+  
+  .line1 {
+    width: 50%; 
+    margin-right: auto; 
+  }
+  
+  .line2 {
+    width: 100%; 
+  }
+  
+  .line3 {
+    width: 50%; 
+    margin-left: auto; 
+  }
+  
+  
+    
+}
+@media (max-width: 767px) {
+    .hero_sec_text h1,
+    .popular_item_text h1,
+    .deals_sec_main h1,
+    .popular_product_text h1,
+    .hero_sec_text .offer span,
+    .trending_products_main .heading h1,
+    .services_text_section .heading h1,
+    .delivery_sec_text h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .hero_sec_text p,
+    .popular_item_text p,
+    .services_text_section .description,
+    .services_text_section .heading p,
+    .trending_products_main .heading p,
+    .delivery_sec_text p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .hero_sec_text .offer p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .hero_sec_order_btn,
+    .deals_order_btn, .hero_sec_order_btn,
+    .delivery_sec_text button {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .carousel_main {
+        height: 60vh;
+    }
+    .popular_items_sec {
+        margin-top: 50px;
+    }
+    .offer_section{
+        padding: 0px;
+    }
+    .sponsors_section h4::after {
+        content: "";
+        width: 37%;
+    }
+    .deals_sec_main .grilled {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .service_card_main{
+        align-items: center;
+    }
+    .service_card_main img {
+        height: 70px;
+        width: 70px;
+    }
+    .special_offer_CardLeft {
+        height: fit-content;
+        background-position-y: center;
+        background-position-x: right;
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 30px 0px;
+    }
+    .special_offer_CardLeft_img {
+        padding-top: 16px;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    .delivery_sec_text{
+        text-align: center;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+    margin-bottom: 30px;
+    }
+    .delivery_sec_text h1 {
+        text-align: center;
+        }
+    .delivery_sec_text button {
+        width: fit-content;
+        text-align: center;
+        }
+}
+@media (max-width: 575px) {
+    .header_buttons {
+        width: 50%;
+        margin: 20px 0px 0px 0px;
+        align-items: flex-start !important;
+    }
+
+    .contact_us_btn {
+        margin:10px 0px 0px 0px;
+    }
+    .carousel_main {
+        height: 100%;
+    }
+    .hero_sec_text {
+        padding: 50px 0px;
+    }
+    .navbar-brand img{
+        width: 40px;
+        height: 40px;
+    }
+    .hero_sec_text .offer span {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .hero_sec_img {
+        height: 74%;
+        align-items: center;
+    }
+    .sponsoers_main h4 {
+        font-size: 17px;
+        line-height: 20px;
+        justify-content: center;
+    }
+    .sponsors_section h4::after {
+        display: none
+    }
+    .brand_logo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .popular_product_image img {
+        height: 350px;
+    }
+    .trending_deals_btns {
+        width: 100%;
+    }
+    .about_us_btn{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about_us_btn button{
+        margin-bottom: 10px;
+    }
+    .client_review h1 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .happy_client_section {
+         height: 350px;
+         padding-top: 0px;
+    }
+    .client_review p {
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+    .client_review h3 {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .slick-list .draggable{
+        white-space: wrap !important;
+    }
+    .brand_logo_slider {
+        width: 100%;
+        padding: 0;
+      }
+      footer {
+        background-position-x: center;
+        background-position-y: center;
+    }
+    .service_images_sec img {
+        width: inherit;
+        height: 290px;
+    }
+    .kfc_products_main h1 {
+        width: 100%;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .footer_bottom {
+        flex-direction: column;
+    }    
+    .sponsors_section {
+        width: 100%;
+        background: var(--bg-color);
+        padding: 30px 0px 30px 0px;
+    }
+    .kfc_product_sec_text {
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .brand_slider{
+        overflow: hidden;
+    }
+}
+@media (max-width: 425px) {
+    .popular_product_image img {
+        height: 270px;
+    }
+    .owl-item .active .center{
+        width: 35px !important;
+    }
+}
