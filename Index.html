@@ -45,22 +45,22 @@
         <div class="row">
           <div class="col-12">
             <nav class="navbar navbar-expand-lg">
-              <div class="container-fluid justify-content-center">
+              <div class="container-fluid justify-content-between justify-content-lg-center">
                 <a class="navbar-brand" href="#"
                   ><img src="./assets/public/images/Logo-Pizza-Hut 2.png" alt="Logo" /><span class="ms-2 fw-normal">pizza hut</span></a
                 >
                 <button
-                class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"
+                class="navbar-toggler bg-transparent border-0 p-0 cursor" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"
                 >
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-                <span class="line line3"></span>
+                <span class="line w-50 me-auto my-1 d-block line1"></span>
+                <span class="line my-1 w-100 d-block line2"></span>
+                <span class="line w-50 my-1 d-block line3 ms-auto"></span>
                 </button>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                  <div class="offcanvas-header">
+                  <div class="offcanvas-header p-4">
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
-                  <div class="offcanvas-body">
+                  <div class="offcanvas-body align-items-start align-items-lg-center m-0">
                     <ul class="navbar-nav align-items-lg-center mx-auto mb-2 mb-lg-0">
                       <li class="nav-item me-3">
                         <a class="nav-link active" href="#" aria-current="page">Home</a>
@@ -130,7 +130,9 @@
                         <a class="nav-link" href="#">Contact</a>
                       </li>
                     </ul>
-                    <div class="header_buttons w-lg-25 d-flex align-items-baseline justify-content-end">
+                    <div class="header_buttons w-25 d-flex align-items-lg-baseline align-items-start justify-content-lg-end 
+                    justify-content-center 
+                    flex-column flex-lg-row flex-lg-row mt-4 mt-lg-0">
                       <div class="addCart position-relative cursor">
                         <i class="fa-solid fa-basket-shopping fs-4 lh-1"></i>
                         <span class="position-absolute fs-6 rounded-circle d-flex align-items-center justify-content-center w-100 h-100 lh-1 pb-1">22</span>
@@ -242,14 +244,14 @@
           <div class="col-12">
             <div class="row">
               <div class="col-12">
-                <div class="popular_item_text mb-4">
-                  <p class="fw-bold lh-1 text-start text-capitalize">crispy, every bite taste</p>
-                  <h1 class="fs-1 lh-base fw-bold text-start">Popular Food Items</h1>
+                <div class="popular_item_text mb-2">
+                  <p class="fw-bold lh-1 text-md-start text-center text-capitalize">crispy, every bite taste</p>
+                  <h1 class="fs-1 lh-base fw-bold text-start text-md-start text-center">Popular Food Items</h1>
                 </div>
               </div>
             </div>
-            <div class="row popular_item_row">
-              <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="row justify-content-center">
+              <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
                 <a href="#" class="popular_item_main_card d-block h-100">
                   <div class="popular_item_main d-flex flex-column align-items-center rounded-2 justify-content-between h-100 pt-3 pb-4">
                     <div class="popular_item_img">
@@ -262,7 +264,7 @@
                   </div>
                 </a>
               </div>
-              <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
                 <a href="#" class="popular_item_main_card d-block h-100">
                   <div class="popular_item_main d-flex flex-column align-items-center rounded-2 justify-content-between h-100 pt-3 pb-4">
                     <div class="popular_item_img">
@@ -275,7 +277,7 @@
                   </div>
                 </a>
               </div>
-              <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
                 <a href="#" class="popular_item_main_card d-block h-100">
                   <div class="popular_item_main d-flex flex-column align-items-center rounded-2 justify-content-between h-100 pt-3 pb-4">
                     <div class="popular_item_img">
@@ -288,7 +290,7 @@
                   </div>
                 </a>
               </div>
-              <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
                 <a href="#" class="popular_item_main_card d-block h-100">
                   <div class="popular_item_main d-flex flex-column align-items-center rounded-2 justify-content-between h-100 pt-3 pb-4">
                     <div class="popular_item_img">
@@ -310,11 +312,11 @@
     <!-- ---------------- popular Section end -------------------  -->
 
     <!-- ---------------- offer Section start -------------------  -->
-    <section class="offer_section w-100 h-100 py-md-5">
+    <section class="offer_section w-100 h-100 py-md-5 p-0">
       <div class="container">
         <div class="row">
           <div class="col-lg-5">
-            <div class="offer_img_one w-100 h-100">
+            <div class="offer_img_one mb-4 mb-lg-0 w-100 h-100">
               <img class="w-100" src="./assets/public/images/Background (1).png" alt="best_offer" />
             </div>
           </div>
@@ -335,8 +337,8 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="sponsoers_main">
-              <h4 class="fw-semibold fs-5 lh-sm text-start mb-0 d-flex align-items-center justify-content-between">
+            <div class="sponsoers_main w-100">
+              <h4 class="fw-semibold fs-5 lh-sm text-start mb-0 d-flex align-items-center justify-content-sm-between justify-content-center">
                 GLOBAL
                 <p class="mx-1 mb-0 fw-semibold fs-5 lh-sm">5K+</p>
                 HAPPY SPONSORS WITH US
@@ -344,12 +346,12 @@
             </div>
             <div class="row mt-4">
               <div class="col-lg-2 col-md-3 col-sm-4">
-                <div class="brand_logo">
+                <div class="brand_logo d-sm-block d-flex justify-content-center mb-sm-0 mb-3">
                   <img src="./assets/public/images/pizza_logo.png" alt="brand_logo" />
                 </div>
               </div>
               <div class="col-lg-2 col-md-3 col-sm-4">
-                <div class="brand_logo">
+                <div class="brand_logo d-sm-block d-flex justify-content-center mb-sm-0 mb-3">
                   <img src="./assets/public/images/cook_logo.png" alt="brand_logo" />
                 </div>
               </div>
@@ -391,18 +393,18 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="popular_product_text mb-5">
+            <div class="mt-3">
               <p class="fs-6 fw-bold lh-1 text-capitalize text-center">crispy, every bite taste</p>
               <h1 class="display-4 lh-base fw-bold text-center">Popular Fast Foods</h1>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
             <div class="popular_product_card mb-4">
               <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
-                <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
-                <img class="w-100 pt-4 pb-3" src="./assets/public/images/delicious-burger.png.png" alt="" />
+                <div class="fvrt_btn cursor py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
+                <img class="w-100 pt-4 pb-3 m-sm-0 mx-auto" src="./assets/public/images/delicious-burger.png.png" alt="" />
               </div>
               <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
                 <div class="price d-flex align-items-center mb-2">
@@ -416,11 +418,11 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
             <div class="popular_product_card mb-4">
               <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
                 <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
-                <img class="w-100 pt-4 pb-3" src="./assets/public/images/grilled-2.png.png" alt="" />
+                <img class="w-100 pt-4 pb-3 m-sm-0 mx-auto" src="./assets/public/images/grilled-2.png.png" alt="" />
               </div>
               <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
                 <div class="price d-flex align-items-center mb-2">
@@ -434,11 +436,11 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
             <div class="popular_product_card mb-4">
               <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
                 <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
-                <img class="w-100 pt-4 pb-3" src="./assets/public/images/ruti.png.png" alt="" />
+                <img class="w-100 pt-4 pb-3 m-sm-0 mx-auto" src="./assets/public/images/ruti.png.png" alt="" />
               </div>
               <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
                 <div class="price d-flex align-items-center mb-2">
@@ -452,11 +454,11 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
             <div class="popular_product_card mb-4">
               <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
                 <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
-                <img class="w-100 pt-4 pb-3" src="./assets/public/images/main-food-2.png.png" alt="" />
+                <img class="w-100 pt-4 pb-3 m-sm-0 mx-auto" src="./assets/public/images/main-food-2.png.png" alt="" />
               </div>
               <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
                 <div class="price d-flex align-items-center mb-2">
@@ -470,11 +472,11 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
             <div class="popular_product_card mb-4">
               <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
                 <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
-                <img class="w-100 pt-4 pb-3" src="./assets/public/images/pizza-3.png.png" alt="" />
+                <img class="w-100 pt-4 pb-3 m-sm-0 mx-auto" src="./assets/public/images/pizza-3.png.png" alt="" />
               </div>
               <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
                 <div class="price d-flex align-items-center mb-2">
@@ -488,11 +490,11 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
             <div class="popular_product_card mb-4">
               <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
                 <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
-                <img class="w-100 pt-4 pb-3" src="./assets/public/images/pasta-2.png.png" alt="" />
+                <img class="w-100 pt-4 pb-3 m-sm-0 mx-auto" src="./assets/public/images/pasta-2.png.png" alt="" />
               </div>
               <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
                 <div class="price d-flex align-items-center mb-2">
@@ -506,11 +508,11 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
           <div class="popular_product_card mb-4">
             <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
               <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
-              <img class="w-100 pt-4 pb-3" src="./assets/public/images/beef-ruti.png.png" alt="" />
+              <img class="w-100 pt-4 pb-3 m-sm-0 mx-auto" src="./assets/public/images/beef-ruti.png.png" alt="" />
               </div>
               <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
                 <div class="price d-flex align-items-center mb-2">
@@ -524,11 +526,11 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
             <div class="popular_product_card mb-4">
               <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
                 <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
-                <img class="w-100 pt-4 pb-3" src="./assets/public/images/burger-2-1.png.png" alt="" />
+                <img class="w-100 pt-4 pb-3 m-sm-0 mx-auto" src="./assets/public/images/burger-2-1.png.png" alt="" />
               </div>
               <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
                 <div class="price d-flex align-items-center mb-2">
@@ -542,11 +544,11 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 product-card hidden">
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-3 hidden">
             <div class="popular_product_card mb-4">
               <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
                 <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
-                <img class="w-100 pt-4 pb-3" src="./assets/public/images/delicious-burger.png.png" alt="" />
+                <img class="w-100 pt-4 pb-3 m-sm-0 mx-auto" src="./assets/public/images/delicious-burger.png.png" alt="" />
               </div>
               <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
                 <div class="price d-flex align-items-center mb-2">
@@ -560,11 +562,11 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 product-card hidden">
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-3 hidden">
             <div class="popular_product_card mb-4">
               <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
                 <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
-                <img class="w-100 pt-4 pb-3" src="./assets/public/images/grilled-2.png.png" alt="" />
+                <img class="w-100 pt-4 pb-3 m-sm-0 mx-auto" src="./assets/public/images/grilled-2.png.png" alt="" />
               </div>
               <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
                 <div class="price d-flex align-items-center mb-2">
@@ -578,11 +580,11 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 product-card hidden">
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-3 hidden">
             <div class="popular_product_card mb-4">
               <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
                 <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
-                <img class="w-100 pt-4 pb-3" src="./assets/public/images/ruti.png.png" alt="" />
+                <img class="w-100 pt-4 pb-3 m-sm-0 mx-auto" src="./assets/public/images/ruti.png.png" alt="" />
               </div>
               <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
                 <div class="price d-flex align-items-center mb-2">
@@ -596,11 +598,11 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 product-card hidden">
+          <div class="col-lg-3 col-md-4 col-sm-6 mt-3 hidden">
             <div class="popular_product_card mb-4">
               <div class="popular_product_image rounded-3 position-relative w-100 d-flex flex-column px-4 pt-2 pb-4">
                 <div class="fvrt_btn py-1 px-2 rounded-3 position-absolute"><i class="fa-solid fa-heart"></i></div>
-                <img class="w-100 pt-4 pb-3" src="./assets/public/images/main-food-2.png.png" alt="" />
+                <img class="w-100 pt-4 pb-3 m-sm-0 mx-auto" src="./assets/public/images/main-food-2.png.png" alt="" />
               </div>
               <div class="popular_product_details d-flex align-items-center justify-content-center flex-column mt-3">
                 <div class="price d-flex align-items-center mb-2">
@@ -685,7 +687,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="brand_logo_slider w-100">
+            <div class="brand_logo_slider p-0 w-100">
               <div class="brand_logo_img">
                 <img class="d-block" src="./assets/public/images/slider_logo.png" alt="brand" />
               </div>
@@ -712,10 +714,10 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="banner_card rounded-3">
+            <div class="banner_card py-4 py-lg-0 rounded-3">
               <div class="row">
                 <div class="col-lg-3 col-md-6">
-                  <div class="banner_card_main w-100 py-5 px-4">
+                  <div class="banner_card_main w-100 py-lg-5 px-lg-4 px-4 py-4">
                     <div class="logo">
                       <img src="./assets/public/images/Icon.png" alt="quality food" />
                     </div>
@@ -724,7 +726,7 @@
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                  <div class="banner_card_main w-100 py-5 px-4">
+                  <div class="banner_card_main w-100 py-lg-5 px-lg-4 px-4 py-4">
                     <div class="logo">
                       <img src="./assets/public/images/Icon (1).png" alt="ORIGINAL RECIPES" />
                     </div>
@@ -733,7 +735,7 @@
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                  <div class="banner_card_main w-100 py-5 px-4">
+                  <div class="banner_card_main w-100 py-lg-5 px-lg-4 px-4 py-4">
                     <div class="logo">
                       <img src="./assets/public/images/Icon (2).png" alt="QUICK FAST DELIVERY" />
                     </div>
@@ -742,7 +744,7 @@
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                  <div class="banner_card_main w-100 py-5 px-4">
+                  <div class="banner_card_main w-100 py-lg-5 px-lg-4 px-4 py-4">
                     <div class="logo">
                       <img src="./assets/public/images/Icon.png" alt="quality food" />
                     </div>
@@ -782,7 +784,7 @@
               <div class="service_card d-flex mt-3">
                 <div class="row">
                   <div class="col-md-6">
-                    <div class="service_card_main d-flex mt-3">
+                    <div class="service_card_main align-items-center align-items-lg-start d-flex mt-3">
                       <img class="me-2" src="./assets/public/images/Icon.png" alt="super quality food" />
                       <div class="detail">
                         <h1 class="fs-6 lh-1 fw-semibold text-capitalize">super quality food</h1>
@@ -791,7 +793,7 @@
                     </div>
                   </div>
                   <div class="col-md-6">
-                    <div class="service_card_main d-flex mt-3">
+                    <div class="service_card_main align-items-center align-items-lg-start d-flex mt-3">
                       <img class="me-2" src="./assets/public/images/Icon (5).png" alt="well reputation" />
                       <div class="detail">
                         <h1 class="fs-6 lh-1 fw-semibold text-capitalize">well reputation</h1>
@@ -801,8 +803,8 @@
                   </div>
                 </div>
               </div>
-              <div class="about_us_btn d-flex align-items-center mt-3">
-                <button class="fs-6 lh-sm text-center text-capitalize py-3 px-4 rounded-3 border-0 me-2">More About Us</button>
+              <div class="about_us_btn d-flex align-items-sm-center align-items-start flex-column flex-sm-row mt-3">
+                <button class="fs-6 lh-sm text-center text-capitalize py-3 px-4 rounded-3 border-0 me-2 mb-sm-0 mb-2">More About Us</button>
                 <div class="text">
                   <span class="fs-6 lh-sm fw-semibold text-uppercase">BRENDON GARREY</span>
                   <p class="fs-6 lh-1 fw-bold text-uppercase">CUSTOMER’S EXPERIENCE IS OUR HIGHEST PRIORITY.</p>
@@ -821,10 +823,10 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-7">
-            <div class="special_offer_CardLeft w-100 rounded-3">
+            <div class="special_offer_CardLeft w-100 rounded-3 mb-4 mb-lg-0">
               <div class="row align-items-center">
                 <div class="col-md-5">
-                  <div class="special_offer_CardLeft_text align-items-center d-flex flex-column">
+                  <div class="special_offer_CardLeft_text align-items-center d-flex flex-column pt-4">
                     <p class="fs-5 lh-1 fw-bold">Today</p>
                     <h1 class="fs-1 lh-sm fw-bold">Special</h1>
                     <h6 class="fs-4 lh-1 fw-bold">Beef <span>Burger</span></h6>
@@ -832,7 +834,7 @@
                   </div>
                 </div>
                 <div class="col-md-7">
-                  <div class="special_offer_CardLeft_img w-100 h-100 d-flex align-items-center pt-3">
+                  <div class="special_offer_CardLeft_img w-100 h-100 d-flex align-items-center pt-sm-3 py-4 justify-content-center mx-auto">
                     <img class="h-100" src="./assets/public/images/Group 1000002309 (1).png" alt="Special Offer" />
                   </div>
                 </div>
@@ -901,7 +903,7 @@
 
     <!-- -------------- happy client sec start ---------  -->
 
-    <section class="happy_client_section w-100 d-flex justify-content-center align-items-center py-5 ">
+    <section class="happy_client_section w-100 d-flex justify-content-center align-items-center pt-sm-5 pt-0">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -961,7 +963,7 @@
           </div>
         </div>
         <div class="circle-buttons d-flex justify-content-center align-items-center mt-4">
-          <button class="circle rounded-3 cursor border-0 fs-6 fw-bold d-flex justify-content-center align-items-center" id="circle1"><img class="mt-2" src="./assets/public/images/3aaa.png" alt="client"></button>
+          <button class="circle rounded-3 cursor border-0 fs-6 fw-bold d-flex justify-content-center align-items-center" id="circle1"><img class="mt-3" src="./assets/public/images/3aaa.png" alt="client"></button>
           <button class="circle rounded-3 cursor border-0 fs-6 fw-bold d-flex justify-content-center align-items-center" id="circle2">
             <img class="mt-3" src="./assets/public/images/Image+Border+Shadow.png" alt="client" />
           </button>
@@ -978,10 +980,10 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="delivery_sec_main py-4 rounded-3">
+            <div class="delivery_sec_main py-lg-4 py-5 rounded-3">
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-5">
-                  <div class="delivery_sec_text">
+                  <div class="delivery_sec_text text-center text-md-start mx-auto d-md-block d-flex flex-md-row flex-column justify-content-center mb-4 align-items-center">
                     <p class="fs-6 lh-1 fw-bold text-start text-capitalize">Crispy, Every Bite Taste</p>
                     <h1 class="fs-1 lh-sm fw-bold text-capitalize">30 Minutes Fast <span>Delivery</span> Challenge</h1>
                     <button class="border-0 rounded-3 py-3 px-4 fs-6 lh-1 fw-medium text-center text-capitalize mt-3"><i class="fa-solid fa-truck"></i> Order Now</button>
@@ -1109,7 +1111,7 @@
         <div class="row">
           <div class="col-12">
             <div class="bottom_footer_main">
-              <div class="footer_bottom d-flex justify-content-between align-items-center py-3">
+              <div class="footer_bottom d-flex justify-content-between flex-sm-row flex-column align-items-center py-3">
                 <div class="copywrite fs-6 lh-1 fw-medium d-flex align-items-center">
                   <span>© 2024 pizza hut</span>
                   <p>| All shawonetc3 Themes</p>
